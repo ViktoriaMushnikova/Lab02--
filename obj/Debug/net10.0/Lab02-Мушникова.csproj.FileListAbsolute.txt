@@ -1,0 +1,14 @@
+C:\Users\admin\Documents\Lab02-Мушникова\obj\Debug\net10.0\Lab02-Мушникова.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Documents\Lab02-Мушникова\obj\Debug\net10.0\Lab02-Мушникова.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Lab02-Мушникова\obj\Debug\net10.0\Lab02-Мушникова.AssemblyInfo.cs
+C:\Users\admin\Documents\Lab02-Мушникова\obj\Debug\net10.0\Lab02-Мушникова.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Lab02-Мушникова\bin\Debug\net10.0\Lab02-Мушникова.exe
+C:\Users\admin\Documents\Lab02-Мушникова\bin\Debug\net10.0\Lab02-Мушникова.deps.json
+C:\Users\admin\Documents\Lab02-Мушникова\bin\Debug\net10.0\Lab02-Мушникова.runtimeconfig.json
+C:\Users\admin\Documents\Lab02-Мушникова\bin\Debug\net10.0\Lab02-Мушникова.dll
+C:\Users\admin\Documents\Lab02-Мушникова\bin\Debug\net10.0\Lab02-Мушникова.pdb
+C:\Users\admin\Documents\Lab02-Мушникова\obj\Debug\net10.0\Lab02-Мушникова.dll
+C:\Users\admin\Documents\Lab02-Мушникова\obj\Debug\net10.0\refint\Lab02-Мушникова.dll
+C:\Users\admin\Documents\Lab02-Мушникова\obj\Debug\net10.0\Lab02-Мушникова.pdb
+C:\Users\admin\Documents\Lab02-Мушникова\obj\Debug\net10.0\Lab02-Мушникова.genruntimeconfig.cache
+C:\Users\admin\Documents\Lab02-Мушникова\obj\Debug\net10.0\ref\Lab02-Мушникова.dll
