@@ -122,3 +122,4 @@ Console.WriteLine("Введите имя");
 string name = Console.ReadLine();
 char neme = name[0];
 Console.WriteLine($"{fam} {neme}.");
+
