@@ -104,3 +104,12 @@ Console.WriteLine($"Средний балл: {ball}");
 Console.WriteLine($"Балл >= 4.0: {isb}");
 Console.WriteLine($"Любимая буква: {bukva}");
 
+Console.WriteLine("Калькулятор ИМТ");
+Console.WriteLine("Введите свой рост в метрах: ");
+string height = Console.ReadLine();
+double height1 = double.Parse(height);
+Console.WriteLine("Введите ваш вес в килограммах: ");
+string weight = Console.ReadLine();
+double weight1 = double.Parse(weight);
+double bmi = weight1 / (height1 * height1);
+Console.WriteLine($"ИМТ: {bmi:F2}");
