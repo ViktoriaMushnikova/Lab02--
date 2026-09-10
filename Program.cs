@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Границы целочисленных типов");
+﻿using System.Data;
+
+Console.WriteLine("Границы целочисленных типов");
 Console.WriteLine($"byte:  {byte.MinValue} .. {byte.MaxValue} ");
 Console.WriteLine($"short:  {short.MinValue} .. {short.MaxValue}");
 Console.WriteLine($"int:  {int.MinValue} .. {int.MaxValue}");
@@ -40,8 +42,19 @@ Console.WriteLine($"decimal; 0.1 + 0.2 = {priceDecimal}");
 Console.WriteLine();
 Console.WriteLine("var");
 
-var studentAge = 20git;      // компилятор вывел int
+var studentAge = 20;      // компилятор вывел int
 var gpa = 4.75;           // компилятор вывел double
 var fullName = "Смирнова А.С.";  // компилятор вывел string
 
 Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
+
+Console.WriteLine();
+Console.WriteLine("Ввод текста");
+
+Console.Write("Введите ваше имя: ");
+string enteredName = Console.ReadLine();
+
+Console.Write("Введите название вашей группы: ");
+string enteredGroup = Console.ReadLine();
+
+Console.WriteLine($"Здраствуйте, {enteredName} из группы {enteredGroup}!");
