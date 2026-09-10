@@ -34,5 +34,14 @@ Console.WriteLine("decimal против double");
 double priceDouble = 0.1 + 0.2;
 decimal priceDecimal = 0.1m + 0.2m;
 
-Console.WriteLine($"double: 0.1 + 0.2 = {priceDouble}");
+Console.WriteLine($"double: 0.1 + 0.2 = {priceDouble}"); 
 Console.WriteLine($"decimal; 0.1 + 0.2 = {priceDecimal}");
+
+Console.WriteLine();
+Console.WriteLine("var");
+
+var studentAge = 20git;      // компилятор вывел int
+var gpa = 4.75;           // компилятор вывел double
+var fullName = "Смирнова А.С.";  // компилятор вывел string
+
+Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
