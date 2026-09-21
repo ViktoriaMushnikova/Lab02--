@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using System.Security.Authentication;
 
 Console.WriteLine("Границы целочисленных типов");
 Console.WriteLine($"byte:  {byte.MinValue} .. {byte.MaxValue} ");
@@ -123,3 +124,18 @@ string name = Console.ReadLine();
 char neme = name[0];
 Console.WriteLine($"{fam} {neme}.");
 
+Console.WriteLine("TryParse на трёх типах");
+Console.Write("Введите целое число : ");
+string text1 = Console.ReadLine();
+bool falsetrue1 = int.TryParse(text1, out int num1);
+Console.WriteLine($"Успешно: {falsetrue1}, Значение: {num1}");
+
+Console.Write("Введите дробное число: ");
+string text2 = Console.ReadLine();
+bool falsetrue2 = double.TryParse(text2, out double num2);
+Console.WriteLine($"Успешно: {falsetrue2}, Значение: {num2}");
+
+Console.WriteLine("Введите дату: ");
+string text3 = Console.ReadLine();
+bool falsetrue3 = DateTime.TryParse(text3, out DateTime num3);
+Console.WriteLine($"Успешно: {falsetrue3}, Значение: {num3}");
